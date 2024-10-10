@@ -1,0 +1,57 @@
+from IMPLEMENTSTACK import IntStack
+from IMPLEMENTSTACK import Node
+
+"""
+Test case 1: Expected Print
+1
+5
+10
+10
+1
+8
+"""
+one = IntStack()
+one.push(8)
+one.push(1)
+print(one.pop())
+one.push(10)
+one.push(5)
+print(one.pop())
+print(one.peek())
+print(one.pop())
+print(one.size())
+print(one.pop())
+
+
+"""
+Test case 2: Expected Print
+2
+4
+9
+"""
+two = IntStack()
+two.push(9)
+two.push(4)
+print(two.size())
+print(two.pop())
+print(two.peek())
+
+"""
+Test case 3: Expected Print
+1
+2
+5
+4
+7
+"""
+three = IntStack()
+three.push(4)
+three.push(2)
+three.push(1)
+print(three.pop())
+print(three.pop())
+three.push(5)
+print(three.pop())
+print(three.pop())
+three.push(7)
+print(three.pop())

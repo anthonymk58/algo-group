@@ -1,1 +1,1 @@
-# algo-group
+I am answering question 2, the Implement Stack problem
